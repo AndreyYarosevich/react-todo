@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import '../todo-list-item/todo-list-item.css';
 
-class TodoListItem extends React.Component {
+export default class TodoListItem extends Component {
 
     render() {
 
@@ -35,5 +35,3 @@ class TodoListItem extends React.Component {
     };
 
 }
-
-export default TodoListItem;
